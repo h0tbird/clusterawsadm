@@ -183,6 +183,8 @@ github.com/googleapis/gax-go/v2 v2.0.5 h1:sjZBwGj9Jlw33ImPtvFviGYvseOtDM7hkSKB7+
 github.com/googleapis/gax-go/v2 v2.0.5/go.mod h1:DWXyrwAJ9X0FpwwEdw+IPEYBICEFu5mhpdKc/us6bOk=
 github.com/h0tbird/terrago v0.0.0-20210101160101-517de6f0b3b8 h1:TBFQoiR7Tv/1XcHukQFuDXsXCqadjuJIfbaiZOFjHJY=
 github.com/h0tbird/terrago v0.0.0-20210101160101-517de6f0b3b8/go.mod h1:faVlqeTLC6izYuUty1H3Dv0IKgq6GphbrP15H5ohWuU=
+github.com/h0tbird/terrago v0.0.0-20210101163248-1126ae856443 h1:HZA7pnbgF5hOXGehdxMjfNypHsZceRq8jySfgxlgP0c=
+github.com/h0tbird/terrago v0.0.0-20210101163248-1126ae856443/go.mod h1:faVlqeTLC6izYuUty1H3Dv0IKgq6GphbrP15H5ohWuU=
 github.com/hashicorp/aws-sdk-go-base v0.7.0 h1:Umcq11kcoARameDgxPiYBbyltTZqO7GgBVSdq4pzX/w=
 github.com/hashicorp/aws-sdk-go-base v0.7.0/go.mod h1:2fRjWDv3jJBeN6mVWFHV6hFTNeFBx2gpDLQaZNxUVAY=
 github.com/hashicorp/errwrap v1.0.0/go.mod h1:YH+1FKiLXxHSkmPseP+kNlulaMuP3n2brvKWEqk/Jc4=

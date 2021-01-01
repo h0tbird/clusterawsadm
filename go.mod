@@ -11,7 +11,7 @@ require (
 	github.com/fatih/color v1.10.0 // indirect
 	github.com/go-git/go-git/v5 v5.2.0 // indirect
 	github.com/google/go-cmp v0.5.4 // indirect
-	github.com/h0tbird/terrago v0.0.0-20210101160101-517de6f0b3b8
+	github.com/h0tbird/terrago v0.0.0-20210101163248-1126ae856443
 	github.com/hashicorp/go-getter v1.5.1 // indirect
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.4.0
 	github.com/hashicorp/yamux v0.0.0-20200609203250-aecfd211c9ce // indirect

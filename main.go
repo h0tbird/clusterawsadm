@@ -37,7 +37,7 @@ func init() {
 func main() {
 
 	ctx := context.Background()
-	m := tg.New()
+	m := tg.NewManifest()
 	s := &state{}
 
 	//------------------------
