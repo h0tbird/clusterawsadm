@@ -7,10 +7,10 @@ require (
 	cloud.google.com/go/storage v1.12.0 // indirect
 	github.com/Microsoft/go-winio v0.4.15 // indirect
 	github.com/apparentlymart/go-cidr v1.1.0 // indirect
-	github.com/aws/aws-sdk-go v1.35.33 // indirect
 	github.com/fatih/color v1.10.0 // indirect
 	github.com/go-git/go-git/v5 v5.2.0 // indirect
 	github.com/google/go-cmp v0.5.4 // indirect
+	github.com/h0tbird/clusterawsadm/providers/terraform-provider-aws v0.0.0
 	github.com/h0tbird/terrago v0.0.0-20210101163248-1126ae856443
 	github.com/hashicorp/go-getter v1.5.1 // indirect
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.4.0
@@ -30,3 +30,5 @@ require (
 	golang.org/x/tools v0.0.0-20201121010211-780cb80bd7fb // indirect
 	google.golang.org/genproto v0.0.0-20201119123407-9b1e624d6bc4 // indirect
 )
+
+replace github.com/h0tbird/clusterawsadm/providers/terraform-provider-aws => ./providers/terraform-provider-aws

@@ -18,7 +18,9 @@ import (
 	// terraform
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/terraform-providers/terraform-provider-aws/aws"
+
+	// providers
+	"github.com/h0tbird/clusterawsadm/providers/terraform-provider-aws/aws"
 )
 
 //-----------------------------------------------------------------------------
