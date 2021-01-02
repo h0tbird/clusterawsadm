@@ -1,3 +1,6 @@
+build:
+	go build -ldflags="-s -w" .
+
 terraform-provider-aws:
 	rsync -a --exclude='.*' ~/git/hashicorp/terraform-provider-aws/ providers/terraform-provider-aws
 	find providers/terraform-provider-aws -type f -print0 | \

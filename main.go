@@ -15,7 +15,7 @@ import (
 	tg "github.com/h0tbird/terrago"
 	"github.com/sirupsen/logrus"
 
-	// terraform
+	// terraform-plugin-sdk
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
 

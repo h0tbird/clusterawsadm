@@ -1,4 +1,4 @@
-module main
+module clusterawsadm
 
 go 1.15
 
@@ -21,7 +21,6 @@ require (
 	github.com/mitchellh/mapstructure v1.4.0 // indirect
 	github.com/oklog/run v1.1.0 // indirect
 	github.com/sirupsen/logrus v1.7.0
-	github.com/terraform-providers/terraform-provider-aws v1.60.1-0.20201120215712-ce5936f8240d
 	github.com/xanzy/ssh-agent v0.3.0 // indirect
 	golang.org/x/crypto v0.0.0-20201117144127-c1f2f97bffc9 // indirect
 	golang.org/x/net v0.0.0-20201224014010-6772e930b67b // indirect
