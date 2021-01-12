@@ -8,7 +8,7 @@ build:
 
 #------------------------------------------------------------------------------
 # Creates a local copy of the upstream provider module and replaces all the
-# upstream references with references to the local copy.
+# upstream references with references to the local copy using 'go mod edit'.
 #------------------------------------------------------------------------------
 
 terraform-provider-aws: NAME := terraform-provider-aws
