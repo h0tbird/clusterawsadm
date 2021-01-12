@@ -20,7 +20,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
 
 	// providers
-	"github.com/h0tbird/clusterawsadm/providers/terraform-provider-aws/aws"
+	"github.com/terraform-providers/terraform-provider-aws/aws"
 )
 
 //-----------------------------------------------------------------------------
