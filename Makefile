@@ -21,4 +21,6 @@ terraform-provider-aws:
 	@mkdir -p providers/${NAME} && rsync -a --delete --exclude='.*' ${TMPDIR}/ providers/${NAME}
 	@rm -rf ${TMPDIR} && find providers/${NAME} -type f -print0 | \
 	xargs -0 gsed -i 's_github.com/terraform-providers/${NAME}_${REPO}/providers/${NAME}_g'
-	# go list -f '{{ join .GoFiles "\n" }}' ./...
+	# TODO: Rewrite the provider's source code using go/parser go/ast go/printer.
+	# Delete unreferenced entries in DataSourcesMap and ResourcesMap so that the code is not
+	# referenced and the linker's DCE (Dead Code Elimination) strips out the unused functions.
