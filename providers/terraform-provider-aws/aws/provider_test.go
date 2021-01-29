@@ -798,6 +798,12 @@ func testAccPreCheckIamServiceLinkedRole(t *testing.T, pathPrefix string) {
 	}
 }
 
+func testAccEnvironmentVariableSetPreCheck(variable string, t *testing.T) {
+	if os.Getenv(variable) == "" {
+		t.Skipf("skipping tests; environment variable %s must be set", variable)
+	}
+}
+
 func testAccAlternateAccountProviderConfig() string {
 	//lintignore:AT004
 	return fmt.Sprintf(`
@@ -1031,6 +1037,9 @@ func testAccPreCheckSkipError(err error) bool {
 		return true
 	}
 	if isAWSErr(err, "InvalidInputException", "Unknown operation") {
+		return true
+	}
+	if isAWSErr(err, "InvalidAction", "is not valid") {
 		return true
 	}
 	if isAWSErr(err, "InvalidAction", "Unavailable Operation") {

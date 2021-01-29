@@ -10,8 +10,7 @@ require (
 	github.com/go-git/go-git/v5 v5.2.0 // indirect
 	github.com/google/go-cmp v0.5.4 // indirect
 	github.com/h0tbird/terrago v0.0.0-20210118232319-2197aec180b5
-	github.com/hashicorp/terraform-plugin-go v0.2.1 // indirect
-	github.com/hashicorp/terraform-plugin-sdk/v2 v2.4.0
+	github.com/hashicorp/terraform-plugin-sdk/v2 v2.4.1
 	github.com/hashicorp/yamux v0.0.0-20200609203250-aecfd211c9ce // indirect
 	github.com/imdario/mergo v0.3.11 // indirect
 	github.com/kevinburke/ssh_config v0.0.0-20201106050909-4977a11b4351 // indirect
