@@ -9,3 +9,11 @@ Run this to use the latest `terrago` code:
 ```
 go get -u github.com/h0tbird/terrago@master
 ```
+
+Run
+```
+AWS_ACCESS_KEY_ID=foo \
+AWS_SECRET_ACCESS_KEY=bar \
+go run .
+```
+

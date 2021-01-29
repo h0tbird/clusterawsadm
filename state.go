@@ -22,7 +22,7 @@ type state struct{}
 func (s *state) Read(logicalID string, state interface{}) error {
 
 	// Open a file handler
-	f, err := os.Open(os.Getenv("HOME") + "/.terramorph/" + logicalID + ".json")
+	f, err := os.Open(os.Getenv("HOME") + "/.clusterawsadm/" + logicalID + ".json")
 	if err != nil {
 
 		// No file means no state
@@ -40,7 +40,7 @@ func (s *state) Read(logicalID string, state interface{}) error {
 func (s *state) Write(logicalID string, state interface{}) error {
 
 	// Open a file handler
-	f, err := os.Create(os.Getenv("HOME") + "/.terramorph/" + logicalID + ".json")
+	f, err := os.Create(os.Getenv("HOME") + "/.clusterawsadm/" + logicalID + ".json")
 	if err != nil {
 		return err
 	}
