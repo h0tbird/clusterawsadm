@@ -7,6 +7,15 @@ build:
 	go build -ldflags="-s -w" .
 
 #------------------------------------------------------------------------------
+# Builds and runs against the local checkout of terrago.
+#------------------------------------------------------------------------------
+
+run-local-terrago:
+	@go mod edit -replace github.com/h0tbird/terrago=../terrago
+	@go run .
+	@go mod edit -dropreplace github.com/h0tbird/terrago
+
+#------------------------------------------------------------------------------
 # Creates a local copy of the upstream provider module and replaces all the
 # upstream references with references to the local copy using 'go mod edit'.
 #------------------------------------------------------------------------------
