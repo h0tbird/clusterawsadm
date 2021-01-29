@@ -42,6 +42,14 @@ func main() {
 	m := tg.NewManifest()
 	s := &state{}
 
+	//----------------------------
+	// Create the state directory
+	//----------------------------
+
+	if err := s.Init(); err != nil {
+		logrus.Fatal(err)
+	}
+
 	//------------------------
 	// Configure the provider
 	//------------------------

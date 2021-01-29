@@ -14,15 +14,34 @@ import (
 )
 
 //-----------------------------------------------------------------------------
+// Types
+//-----------------------------------------------------------------------------
+
+type state struct {
+	stateDir string
+}
+
+//-----------------------------------------------------------------------------
 // State implementation
 //-----------------------------------------------------------------------------
 
-type state struct{}
+func (s *state) Init() (err error) {
+
+	// Define the state directory
+	s.stateDir = os.Getenv("HOME") + "/.clusterawsadm"
+
+	// Create if not exists
+	if _, err = os.Stat(s.stateDir); os.IsNotExist(err) {
+		return os.MkdirAll(s.stateDir, os.ModePerm)
+	}
+
+	return err
+}
 
 func (s *state) Read(logicalID string, state interface{}) error {
 
 	// Open a file handler
-	f, err := os.Open(os.Getenv("HOME") + "/.clusterawsadm/" + logicalID + ".json")
+	f, err := os.Open(s.stateDir + "/" + logicalID + ".json")
 	if err != nil {
 
 		// No file means no state
@@ -40,7 +59,7 @@ func (s *state) Read(logicalID string, state interface{}) error {
 func (s *state) Write(logicalID string, state interface{}) error {
 
 	// Open a file handler
-	f, err := os.Create(os.Getenv("HOME") + "/.clusterawsadm/" + logicalID + ".json")
+	f, err := os.Create(s.stateDir + "/" + logicalID + ".json")
 	if err != nil {
 		return err
 	}
