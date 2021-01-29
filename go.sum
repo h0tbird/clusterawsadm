@@ -267,6 +267,8 @@ github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0/go.mod h1:8NvIoxWQoOIhqOTXgf
 github.com/grpc-ecosystem/grpc-gateway v1.8.5/go.mod h1:vNeuVxBJEsws4ogUvrchl83t/GYV9WGTSLVdBhOQFDY=
 github.com/h0tbird/terrago v0.0.0-20210118232319-2197aec180b5 h1:l2kBRHpSs1gjU2EnqSFtvtX8ZQmTx2KiCurMmG/jNrA=
 github.com/h0tbird/terrago v0.0.0-20210118232319-2197aec180b5/go.mod h1:fIs+dcZZj9TrnTwsrpJEQ17qJee3i/CUPiJwFUIPho0=
+github.com/h0tbird/terrago v0.0.0-20210129224949-658236b10a1b h1:9pMXehmlb/l6Igq8+MgOVokAffg6ABbeuraTUSNGb50=
+github.com/h0tbird/terrago v0.0.0-20210129224949-658236b10a1b/go.mod h1:i6QVmkidDJTsna9h+0jSoWaZMvhKxTvWGJGWshyT6r0=
 github.com/hashicorp/aws-sdk-go-base v0.6.0/go.mod h1:2fRjWDv3jJBeN6mVWFHV6hFTNeFBx2gpDLQaZNxUVAY=
 github.com/hashicorp/aws-sdk-go-base v0.7.0 h1:Umcq11kcoARameDgxPiYBbyltTZqO7GgBVSdq4pzX/w=
 github.com/hashicorp/aws-sdk-go-base v0.7.0/go.mod h1:2fRjWDv3jJBeN6mVWFHV6hFTNeFBx2gpDLQaZNxUVAY=
@@ -343,6 +345,8 @@ github.com/hashicorp/terraform-plugin-sdk/v2 v2.4.0 h1:2c+vG46celrDCsfYEIzaXxvBa
 github.com/hashicorp/terraform-plugin-sdk/v2 v2.4.0/go.mod h1:JBItawj+j8Ssla5Ib6BC/W9VQkOucBfnX7VRtyx1vw8=
 github.com/hashicorp/terraform-plugin-sdk/v2 v2.4.1 h1:k2rpom9wG2cdi5iLRH80EdQB7UX/E6UzYzUfzgsNLuU=
 github.com/hashicorp/terraform-plugin-sdk/v2 v2.4.1/go.mod h1:jgCWyjKf1BRqzuA3IPJb6PJ2YY86ePJurX9xfJtuYNU=
+github.com/hashicorp/terraform-plugin-sdk/v2 v2.4.2 h1:8oo4eMtv3nEZGqe8W0UzMxKnKWuwS/Tb2YyIFJkL59g=
+github.com/hashicorp/terraform-plugin-sdk/v2 v2.4.2/go.mod h1:jgCWyjKf1BRqzuA3IPJb6PJ2YY86ePJurX9xfJtuYNU=
 github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734/go.mod h1:kNDNcF7sN4DocDLBkQYz73HGKwN1ANB1blq4lIYLYvg=
 github.com/hashicorp/yamux v0.0.0-20180604194846-3520598351bb/go.mod h1:+NfK9FKeTrX5uv1uIXGdwYDTeHna2qgaIlx54MXqjAM=
 github.com/hashicorp/yamux v0.0.0-20181012175058-2f1d1f20f75d/go.mod h1:+NfK9FKeTrX5uv1uIXGdwYDTeHna2qgaIlx54MXqjAM=
@@ -664,6 +668,8 @@ golang.org/x/net v0.0.0-20201110031124-69a78807bb2b h1:uwuIcX0g4Yl1NC5XAz37xsr2l
 golang.org/x/net v0.0.0-20201110031124-69a78807bb2b/go.mod h1:sp8m0HH+o8qH0wwXwYZr8TS3Oi6o0r6Gce1SSxlDquU=
 golang.org/x/net v0.0.0-20201224014010-6772e930b67b h1:iFwSg7t5GZmB/Q5TjiEAsdoLDrdJRC1RiF2WhuV29Qw=
 golang.org/x/net v0.0.0-20201224014010-6772e930b67b/go.mod h1:m0MpNAwzfU5UDzcl9v0D8zg8gWTRqZa9RBIspLL5mdg=
+golang.org/x/net v0.0.0-20210119194325-5f4716e94777 h1:003p0dJM77cxMSyCPFphvZf/Y5/NXf5fzg6ufd1/Oew=
+golang.org/x/net v0.0.0-20210119194325-5f4716e94777/go.mod h1:m0MpNAwzfU5UDzcl9v0D8zg8gWTRqZa9RBIspLL5mdg=
 golang.org/x/oauth2 v0.0.0-20180821212333-d2e6202438be/go.mod h1:N/0e6XlmueqKjAGxoOufVs8QHGRruUQn6yWY3a++T0U=
 golang.org/x/oauth2 v0.0.0-20190226205417-e64efc72b421/go.mod h1:gOpvHmFTYa4IltrdGE7lF6nIHvwfUNPOp7c8zoXwtLw=
 golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45/go.mod h1:gOpvHmFTYa4IltrdGE7lF6nIHvwfUNPOp7c8zoXwtLw=
@@ -729,6 +735,8 @@ golang.org/x/sys v0.0.0-20201119102817-f84b799fce68 h1:nxC68pudNYkKU6jWhgrqdreuF
 golang.org/x/sys v0.0.0-20201119102817-f84b799fce68/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
 golang.org/x/sys v0.0.0-20210113181707-4bcb84eeeb78 h1:nVuTkr9L6Bq62qpUqKo/RnZCFfzDBL0bYo6w9OJUqZY=
 golang.org/x/sys v0.0.0-20210113181707-4bcb84eeeb78/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
+golang.org/x/sys v0.0.0-20210124154548-22da62e12c0c h1:VwygUrnw9jn88c4u8GD3rZQbqrP/tgas88tPUbBxQrk=
+golang.org/x/sys v0.0.0-20210124154548-22da62e12c0c/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
 golang.org/x/term v0.0.0-20201117132131-f5c789dd3221 h1:/ZHdbVpdR/jk3g30/d4yUL0JU9kksj8+F/bnQUVLGDM=
 golang.org/x/term v0.0.0-20201117132131-f5c789dd3221/go.mod h1:Nr5EML6q2oocZ2LXRh80K7BxOlk5/8JxuGnuhpl+muw=
 golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1 h1:v+OssWQX+hTHEmOBgwxdZxK4zHq3yOs8F9J7mk0PY8E=
