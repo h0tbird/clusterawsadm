@@ -6,7 +6,6 @@ require (
 	cloud.google.com/go v0.75.0 // indirect
 	cloud.google.com/go/storage v1.12.0 // indirect
 	github.com/Microsoft/go-winio v0.4.15 // indirect
-	github.com/aws/aws-sdk-go v1.37.1 // indirect
 	github.com/fatih/color v1.10.0 // indirect
 	github.com/go-git/go-git/v5 v5.2.0 // indirect
 	github.com/h0tbird/terrago v0.0.0-20210129224949-658236b10a1b

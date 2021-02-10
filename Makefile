@@ -21,7 +21,7 @@ run-local-terrago:
 #------------------------------------------------------------------------------
 
 terraform-provider-aws: NAME := terraform-provider-aws
-terraform-provider-aws: VERSION := v3.26.0
+terraform-provider-aws: VERSION := v3.27.0
 terraform-provider-aws: TMPDIR := $(shell mktemp -d)
 terraform-provider-aws:
 	@git clone --depth 1 --branch ${VERSION} https://github.com/hashicorp/${NAME}.git ${TMPDIR}
